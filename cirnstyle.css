@@ -1,0 +1,197 @@
+/*
+This CSS FILE IS LICENSED UNDER MIT. (https://github.com/sammyorcirn233/cirn-style/blob/master/license)
+copyrighted (c) Sam Huang.
+*/
+* {
+	box-sizing:border-box
+}
+.row:after {
+	content:"";
+	clear:both;
+	display:block
+}
+[class*="col-"] {
+	float:left;
+	padding:15px
+}
+.col-1 {
+	width:8.33%
+}
+.col-2 {
+	width:16.66%
+}
+.col-3 {
+	width:25%
+}
+.col-4 {
+	width:33.33%
+}
+.col-5 {
+	width:41.66%
+}
+.col-6 {
+	width:50%
+}
+.col-7 {
+	width:58.33%
+}
+.col-8 {
+	width:66.66%
+}
+.col-9 {
+	width:75%
+}
+.col-10 {
+	width:83.33%
+}
+.col-11 {
+	width:91.66%
+}
+.col-12 {
+	width:100%
+}
+html {
+	font-family:'sans-serif','Microsoft Yahei';
+}
+.header-purple {
+	background-color:#9933cc;
+	color:#ffffff;
+	padding:15px
+}
+.header-gold {
+	background-color:#FFD700;
+	color:#ffffff;
+	padding:15px
+}
+.header-pink-white {
+	background-color:#FFB6C1;
+	color:#ffffff;
+	padding:15px
+}
+.header-pink-black {
+	background-color:#FFB6C1;
+	padding:15px
+}
+.header-sea-white {
+	background-color:#AFEEEE;
+	padding:15px;
+	color:#ffffff
+}
+.header-sea-black {
+	background-color:#AFEEEE;
+	padding:15px
+}
+.header-mblue {
+	background-color:#0000CD;
+	padding:15px;
+	color:#ffffff
+}
+.header-red {
+	background-color:#FF0000;
+	padding:15px;
+	color:#ffffff
+}
+.header-lime-white {
+	background-color:#00FF00;
+	padding:15px;
+	color:#ffffff
+}
+.header-lime-black {
+	background-color:#00FF00;
+	padding:15px
+}
+.header-moc-white {
+	background-color:#FFE4B5;
+	padding:15px;
+	color:#ffffff
+}
+.header-moc-black {
+	background-color:#FFE4B5;
+	padding:15px
+}
+.header-brown {
+	background-color:#A52A2A;
+	padding:15px;
+	color:#ffffff
+}
+.header-blue {
+	background-color:#0000FF;
+	padding:15px;
+	color:#FFFFFF
+}
+.button {
+	border:none;
+	padding:15px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:16px;
+	margin:4px 2px;
+	cursor:pointer
+}
+.button-sea {
+	background-color:#AFEEEE;
+	border-radius:12px;
+	color:white
+}
+.button-sea-hover-outline {
+	background-color:#FFFFFF;
+	color:#AFEEEE;
+	border-radius:12px;
+	border:2px solid #AFEEEE
+}
+.button-sea-hover-outline:hover {
+	background-color:#AFEEEE;
+	color:#FFFFFF
+}
+.button-sea-hover-bg {
+	background-color:#AFEEEE;
+	color:#FFFFFF;
+	border-radius:12px
+}
+.button-sea-hover-bg:hover {
+	background-color:#FFFFFF;
+	color:#AFEEEE;
+	border:2px solid #AFEEEE
+}
+.button-mblue {
+	background-color:#0000CD;
+	color:white;
+	border-radius:12px
+}
+.button-mblue-hover-outline {
+	background-color:white;
+	color:0000CD;
+	border-radius:12px;
+	border:2px solid #0000CD
+}
+.button-mblue-hover-outline:hover {
+	background-color:#0000CD;
+	color:white;
+	border-radius:12px
+}
+.button-red {
+	background-color: #FF0000;
+	color: white;
+	border-radius: 12px;
+}
+.button-red-hover-outline {
+	background-color: #FFFFFF;
+	color: #FF0000;
+	border: 2px solid #FF0000;
+	border-radius: 12px;
+}
+.button-red-hover-outline:hover {
+	background-color: #FF0000;
+  color: white;
+}
+.button-red-hover-bg {
+  background-color: #FF0000;
+  color: white;
+  border-radius: 12px;
+}
+.button-red-hover-bg:hover {
+  background-color: white;
+  color: #FF0000;
+  border: 2px solid #FF0000;
+  }
