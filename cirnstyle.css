@@ -195,3 +195,33 @@ html {
   color: #FF0000;
   border: 2px solid #FF0000;
   }
+.button-purple {
+	background-color: #9933cc;
+	color: #FFFFFF;
+	border-radius: 12px;
+}
+.button-purple-hover-outline {
+	background-color: #FFFFFF;
+	color: #9933cc;
+	border-radius: 12px;
+	border: 2px solid #9933cc;
+}
+.button-purple-hover-outline:hover {
+	background-color: #9933cc;
+	color: #ffffff;
+}
+.button-purple-hover-bg {
+	background-color: #9933cc;
+	color: white;
+	border-radius: 12px;
+}
+.button-purple-hover-bg:hover {
+	background-color: white;
+	color: #9933cc;
+	border: 2px solid #9933cc;
+}
+.button-pink {
+	background-color: #FFB6C1;
+	color: #FFFFFF;
+	border-radius: 12px;
+}
